@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/database.js" defer></script>
+    <script src="./js/index.js" defer></script>
+    <title>Weartake</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Next</h1>
+            <ul class="lista_nav">
+                <li class="li_nav" id="li_1">Todos</li>
+                <li class="li_nav" id="li_2">Acessórios</li>
+                <li class="li_nav" id="li_3">Calçados</li>
+                <li class="li_nav" id="li_4">Camisetas</li>
+            </ul>
+        </nav>
+    </header>
+        <main class="container">
+            <section class="vitrine"></section>
+            <aside>
+                <section class="pesquisa">
+                    <input type="text" placeholder="Digite aqui sua pesquisa" class="campo_pesquisa">
+                    <button class="botao_pesquisa">Pesquisar</button>
+                </section>
+                <section class="secao_carrinho">
+                    <div class="titulo_carrinho">
+                        <h2>Carrinho de compras</h2>
+                    </div>
+                    <div class="carrinho">
+                        <div class="carrinho_vazio">
+                            <p id="p_carrinho_vazio">Carrinho vazio</p>
+                            <p id="p_adicione_itens">Adicione itens</p>
+                        </div>
+                    </div>
+                </section>
+                <section class="info">
+                    <div class="container_quantidade">
+                        <p>Quantidade:</p>
+                        <p id="quantidade">Quantidade</p>
+                    </div>
+                    <div class="container_total">
+                        <p>Total:</p>
+                        <p id="total">Total</p>
+                    </div>
+                </section>
+            </aside>
+        </main>
+</body>
+</html>
